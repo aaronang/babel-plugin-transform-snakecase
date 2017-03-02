@@ -1,0 +1,14 @@
+let snakeCase;
+let ClassName;
+const CONSTANT_NAME = 1;
+const _CONSTANT_NAME = 1;
+let _privateName;
+let __proto__;
+let __protoName__;
+let name__;
+let _;
+let __;
+let $nameName;
+let $_name;
+let camelCase;
+let $_name$name___;
