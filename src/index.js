@@ -42,7 +42,7 @@ export default function({ types: t }) {
     visitor: {
       Identifier(path) {
         let name = path.node.name;
-        if (name.contains('_') && !isFullCaps(name)) {
+        if (name.indexOf('_') > -1 && !isFullCaps(name)) {
           path.node.name = camelCase(name);
         }
       }
